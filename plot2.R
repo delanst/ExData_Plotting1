@@ -8,5 +8,5 @@ data$Datetime <- as.POSIXct(datetime)
 
 plot(data$Global_active_power ~ data$Datetime, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
 
-dev.copy(png, file = "figure/plot2.png", width = 480, height = 480)
+dev.copy(png, file = "plot2.png", width = 480, height = 480)
 dev.off()
